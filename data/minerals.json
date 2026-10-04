@@ -1,0 +1,453 @@
+{
+  "dataset_metadata": {
+    "system_name": "STRAT-MINERAL // Strategic & Critical Mineral Supply Chain Vulnerability Terminal",
+    "version": "2.4.0",
+    "updated_at": "2026-10-04T04:41:00Z",
+    "jurisdiction": "United States National Defense Stockpile & Allied Defense Industrial Base",
+    "authority": "USGS / DLA Strategic Materials / DOD Title III / CRS",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024.pdf",
+    "retrieved_at": "2026-10-04T04:41:00Z"
+  },
+  "minerals": [
+    {
+      "id": "gallium",
+      "name": "Gallium",
+      "symbol": "Ga",
+      "atomic_number": 31,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 100,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 98,
+      "global_annual_production_mt": 550,
+      "us_defense_stockpile_status": "Severe Deficit",
+      "stockpile_months_available": 2.4,
+      "primary_defense_uses": [
+        "AESA Radar GaN Transmitters (F-35, AN/SPY-6)",
+        "Electronic Warfare (Next Generation Jammer)",
+        "High-Speed Power Electronics"
+      ],
+      "active_export_controls": "Active MOFCOM Licensing Mandate (Effective Aug 1, 2023)",
+      "vulnerability_score": 96,
+      "primary_substitute": "Silicon Germanium (35% efficiency penalty)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-gallium.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "germanium",
+      "name": "Germanium",
+      "symbol": "Ge",
+      "atomic_number": 32,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 50,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 68,
+      "global_annual_production_mt": 140,
+      "us_defense_stockpile_status": "Deficit",
+      "stockpile_months_available": 5.1,
+      "primary_defense_uses": [
+        "Thermal Weapon Sights & Night Vision Optics",
+        "Fiber Optic Military Communications",
+        "Space-grade Multijunction Solar Cells"
+      ],
+      "active_export_controls": "Active MOFCOM Licensing Mandate (Effective Aug 1, 2023)",
+      "vulnerability_score": 88,
+      "primary_substitute": "Zinc selenide optics (lower spectral transmission)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-germanium.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "antimony",
+      "name": "Antimony",
+      "symbol": "Sb",
+      "atomic_number": 51,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 82,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 63,
+      "global_annual_production_mt": 83000,
+      "us_defense_stockpile_status": "Severe Deficit",
+      "stockpile_months_available": 3.8,
+      "primary_defense_uses": [
+        "Ammunition Primers (Antimony Trisulfide)",
+        "Armor-Piercing Projectiles Hardener",
+        "Infrared Countermeasure Flares",
+        "Military Fire-Retardant Uniforms"
+      ],
+      "active_export_controls": "Active MOFCOM Export Restrictions (Announcement No. 33, Effective Sept 15, 2024)",
+      "vulnerability_score": 94,
+      "primary_substitute": "Lead stibnite alternative formulations (untested at scale)",
+      "source_url": "https://www.reuters.com/markets/commodities/china-limit-exports-antimony-national-security-reasons-2024-08-15/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "dysprosium",
+      "name": "Dysprosium",
+      "symbol": "Dy",
+      "atomic_number": 66,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 100,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 99,
+      "global_annual_production_mt": 1800,
+      "us_defense_stockpile_status": "Critical Shortfall",
+      "stockpile_months_available": 1.9,
+      "primary_defense_uses": [
+        "High-Temperature NdFeB Permanent Magnets",
+        "Electric Actuators & Control Surfaces (F-35, B-21)",
+        "Nuclear Reactor Control Rods",
+        "Naval Electric Drive Propulsion"
+      ],
+      "active_export_controls": "China Rare Earth Processing Technology Export Ban (Dec 2023)",
+      "vulnerability_score": 98,
+      "primary_substitute": "Terbium (equally concentrated in China)",
+      "source_url": "https://www.energy.gov/policy/critical-materials-assessment",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "neodymium",
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "atomic_number": 60,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 100,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 85,
+      "global_annual_production_mt": 53000,
+      "us_defense_stockpile_status": "Deficit",
+      "stockpile_months_available": 4.2,
+      "primary_defense_uses": [
+        "Permanent Magnet Motors & Generators",
+        "Precision Guided Munition Fin Actuators",
+        "Sonar Transducers & Acoustic Hydrophones"
+      ],
+      "active_export_controls": "China State Tracking & Traceability Mandate (Effective Oct 2024)",
+      "vulnerability_score": 91,
+      "primary_substitute": "Samarium-Cobalt (higher cost, lower magnetic flux density)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-rare-earths.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "cobalt",
+      "name": "Cobalt",
+      "symbol": "Co",
+      "atomic_number": 27,
+      "criticality_tier": "Critical Tier 2",
+      "us_import_reliance_pct": 74,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 76,
+      "global_annual_production_mt": 190000,
+      "us_defense_stockpile_status": "Monitored Buffer",
+      "stockpile_months_available": 7.5,
+      "primary_defense_uses": [
+        "Aerospace Superalloys for Jet Turbine Blades",
+        "Munitions High-Strength Casings",
+        "Military UAV Battery Storage"
+      ],
+      "active_export_controls": "DRC Export Quota & Tax Review / China Smelting Consolidation",
+      "vulnerability_score": 83,
+      "primary_substitute": "Nickel superalloys (temperature degradation in afterburners)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-cobalt.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "titanium-sponge",
+      "name": "Titanium Sponge",
+      "symbol": "Ti",
+      "atomic_number": 22,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 100,
+      "top_refining_nation": "China & Japan",
+      "top_refining_share_pct": 62,
+      "global_annual_production_mt": 260000,
+      "us_defense_stockpile_status": "Severe Deficit",
+      "stockpile_months_available": 3.2,
+      "primary_defense_uses": [
+        "Fighter Aircraft Structural Airframes (F-35, F-22)",
+        "Submarine Pressure Hulls (Virginia & Columbia Class)",
+        "Heavy Armor Plate & Missile Casings"
+      ],
+      "active_export_controls": "Russia VSMPO Counter-Sanctions & Chinese Export Licensing",
+      "vulnerability_score": 90,
+      "primary_substitute": "High-strength composite graphite (unusable for high heat)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-titanium.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "tungsten",
+      "name": "Tungsten",
+      "symbol": "W",
+      "atomic_number": 74,
+      "criticality_tier": "Critical Tier 2",
+      "us_import_reliance_pct": 50,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 82,
+      "global_annual_production_mt": 84000,
+      "us_defense_stockpile_status": "Deficit",
+      "stockpile_months_available": 6.0,
+      "primary_defense_uses": [
+        "Armor-Piercing Kinetic Penetrators (120mm Tank Rounds)",
+        "Rocket Nozzle Inserts & Hypersonic Leading Edges",
+        "Defense Machine Tooling & Boring Heads"
+      ],
+      "active_export_controls": "Chinese Extraction Quotas & Export Tariff Controls",
+      "vulnerability_score": 86,
+      "primary_substitute": "Depleted Uranium (politically restricted and toxic)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-tungsten.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "haleu",
+      "name": "High-Assay Low-Enriched Uranium",
+      "symbol": "HALEU",
+      "atomic_number": 92,
+      "criticality_tier": "Strategic Energy Tier 1",
+      "us_import_reliance_pct": 95,
+      "top_refining_nation": "Russia (Rosatom / Tenex)",
+      "top_refining_share_pct": 90,
+      "global_annual_production_mt": 40,
+      "us_defense_stockpile_status": "Critical Shortfall",
+      "stockpile_months_available": 1.2,
+      "primary_defense_uses": [
+        "Next-Gen Small Modular Naval & Forward Operating Base Reactors",
+        "Tactical Directed Energy Mobile Power Systems",
+        "Space Nuclear Thermal Propulsion (DRACO Project)"
+      ],
+      "active_export_controls": "US Prohibiting Russian Uranium Imports Act (PL 118-62, 2024)",
+      "vulnerability_score": 97,
+      "primary_substitute": "Centrus American Centrifuge Plant ramp (operating below requirement)",
+      "source_url": "https://www.congress.gov/bill/118th-congress/house-bill/1042",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "beryllium",
+      "name": "Beryllium",
+      "symbol": "Be",
+      "atomic_number": 4,
+      "criticality_tier": "Critical Tier 2",
+      "us_import_reliance_pct": 15,
+      "top_refining_nation": "United States (Materion)",
+      "top_refining_share_pct": 65,
+      "global_annual_production_mt": 280,
+      "us_defense_stockpile_status": "Monitored Buffer",
+      "stockpile_months_available": 14.5,
+      "primary_defense_uses": [
+        "Satellite Optical Mirrors (James Webb / Classified Spy Sata)",
+        "Nuclear Weapon Pit Triggers & Neutron Reflectors",
+        "Helicopter Rotor Hub Bushings"
+      ],
+      "active_export_controls": "US ITAR / EAR Munitions List Strict Export Licensing",
+      "vulnerability_score": 62,
+      "primary_substitute": "Titanium-aluminum alloys (40% weight penalty)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-beryllium.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "natural-graphite",
+      "name": "Natural Battery Graphite",
+      "symbol": "C",
+      "atomic_number": 6,
+      "criticality_tier": "Critical Tier 1",
+      "us_import_reliance_pct": 100,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 92,
+      "global_annual_production_mt": 1300000,
+      "us_defense_stockpile_status": "Severe Deficit",
+      "stockpile_months_available": 3.0,
+      "primary_defense_uses": [
+        "Lithium-Ion Battery Anodes for Naval & Tactical Vehicles",
+        "Solid Rocket Motor Nozzle Throat Plugs",
+        "Electromagnetic Shielding Gaskets"
+      ],
+      "active_export_controls": "Active MOFCOM Graphite Export Restrictions (Effective Dec 1, 2023)",
+      "vulnerability_score": 93,
+      "primary_substitute": "Synthetic graphite (higher carbon emissions and 2.5x energy cost)",
+      "source_url": "https://www.reuters.com/markets/commodities/china-curb-exports-graphite-battery-material-security-grounds-2023-10-20/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium Chemical Hydroxide",
+      "symbol": "Li",
+      "atomic_number": 3,
+      "criticality_tier": "Critical Tier 2",
+      "us_import_reliance_pct": 50,
+      "top_refining_nation": "China",
+      "top_refining_share_pct": 65,
+      "global_annual_production_mt": 180000,
+      "us_defense_stockpile_status": "Monitored Buffer",
+      "stockpile_months_available": 8.0,
+      "primary_defense_uses": [
+        "Unmanned Underwater Vehicle (UUV) Energy Packs",
+        "DOD Microgrid Base Energy Resilience",
+        "Aircraft Emergency Battery Backups"
+      ],
+      "active_export_controls": "FEOC Rules under US Inflation Reduction Act Section 30D",
+      "vulnerability_score": 79,
+      "primary_substitute": "Sodium-ion (45% lower volumetric energy density)",
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-lithium.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    }
+  ],
+  "chokepoints": [
+    {
+      "id": "baotou-inner-mongolia",
+      "name": "Baotou & Bayan Obo Industrial Complex",
+      "location": "Inner Mongolia, China",
+      "controlled_by": "China Northern Rare Earth Group",
+      "minerals_controlled": ["Neodymium", "Dysprosium", "Praseodymium", "Lanthanum"],
+      "global_refining_concentration_pct": 62,
+      "vulnerability_description": "Single geographic hub for over half of global heavy and light rare earth chemical cracking and metal reduction. Disruption halts global permanent magnet production.",
+      "risk_level": "Severe",
+      "lat": 40.6522,
+      "lng": 109.8404,
+      "source_url": "https://csis.org/analysis/china-rare-earths-monopoly",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "xikuangshan-hunan",
+      "name": "Xikuangshan Antimony Complex",
+      "location": "Lengshuijiang, Hunan, China",
+      "controlled_by": "Hunan Gold Group / China Minmetals",
+      "minerals_controlled": ["Antimony"],
+      "global_refining_concentration_pct": 54,
+      "vulnerability_description": "Known as the world's antimony capital; processes raw stibnite into high-purity antimony trioxide and metal ingots required for defense primers and flame retardants.",
+      "risk_level": "Severe",
+      "lat": 27.7554,
+      "lng": 111.4589,
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-antimony.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "katanga-copper-belt",
+      "name": "Katanga Cobalt Corridor",
+      "location": "Haut-Katanga & Lualaba, DR Congo",
+      "controlled_by": "CMOC Group / Glencore / Gécamines",
+      "minerals_controlled": ["Cobalt"],
+      "global_refining_concentration_pct": 74,
+      "vulnerability_description": "Mined ore moves via single narrow truck corridors through Zambia and South Africa (Durban) to Chinese refining facilities in Zhejiang province.",
+      "risk_level": "High",
+      "lat": -11.6667,
+      "lng": 27.4833,
+      "source_url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-cobalt.pdf",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "id": "vsmpo-avisma-verkhnyaya",
+      "name": "VSMPO-Avisma Titanium Smelter",
+      "location": "Verkhnyaya Salda, Sverdlovsk, Russia",
+      "controlled_by": "Rostec State Corporation",
+      "minerals_controlled": ["Titanium Sponge"],
+      "global_refining_concentration_pct": 28,
+      "vulnerability_description": "World's largest integrated titanium sponge smelter; historically supplied over 35% of commercial and military aerospace structural forgings.",
+      "risk_level": "High",
+      "lat": 58.0469,
+      "lng": 60.3086,
+      "source_url": "https://www.reuters.com/business/aerospace-defense/boeing-airbus-titanium-supply-chain-russia-2022-03-08/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    }
+  ],
+  "defense_platforms": [
+    {
+      "platform_id": "f35-lightning-ii",
+      "name": "F-35 Lightning II Joint Strike Fighter",
+      "lead_contractor": "Lockheed Martin",
+      "critical_mineral_demand": [
+        {"mineral": "Dysprosium & Neodymium", "weight_lbs": 920, "critical_subsystem": "Electric flight control surface actuators & starter generator magnets"},
+        {"mineral": "Gallium", "weight_lbs": 14, "critical_subsystem": "AN/APG-81 Active Electronically Scanned Array (AESA) Gallium Nitride modules"},
+        {"mineral": "Titanium Sponge", "weight_lbs": 16000, "critical_subsystem": "Wing spars, fuselage bulkheads, and engine exhaust containment"}
+      ],
+      "supply_chain_bottleneck": "Hon Hai / Honeywell turbomachine magnet provenance halt (2022 DoD delivery pause)",
+      "annual_procurement_target": 86,
+      "source_url": "https://crsreports.congress.gov/product/pdf/R/R47625",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "platform_id": "virginia-class-submarine",
+      "name": "Virginia-Class Fast Attack Submarine (SSN-774)",
+      "lead_contractor": "General Dynamics Electric Boat / HII",
+      "critical_mineral_demand": [
+        {"mineral": "Dysprosium & Neodymium", "weight_lbs": 9200, "critical_subsystem": "Main propulsion motor permanent magnet drive & auxiliary quiet pump motors"},
+        {"mineral": "Titanium Sponge", "weight_lbs": 42000, "critical_subsystem": "Sonar dome frame, seawater ballast piping, and propulsion shaft seals"},
+        {"mineral": "Cobalt", "weight_lbs": 1800, "critical_subsystem": "Steam turbine blade superalloys and nuclear valve seats"}
+      ],
+      "supply_chain_bottleneck": "Single domestic heavy forging and magnet machining capacity backlog",
+      "annual_procurement_target": 2,
+      "source_url": "https://crsreports.congress.gov/product/pdf/RL/RL32418",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "platform_id": "patriot-pac3-missile",
+      "name": "Patriot PAC-3 MSE Interceptor",
+      "lead_contractor": "Lockheed Martin",
+      "critical_mineral_demand": [
+        {"mineral": "Antimony", "weight_lbs": 8, "critical_subsystem": "Rocket motor ignition pellets, squib primers, and flame suppressant liner"},
+        {"mineral": "Germanium", "weight_lbs": 6, "critical_subsystem": "Dual-mode active millimeter wave and infrared seeker lens dome"},
+        {"mineral": "Tungsten", "weight_lbs": 45, "critical_subsystem": "Hit-to-Kill kinetic warhead lethality enhancer cycloids"}
+      ],
+      "supply_chain_bottleneck": "Chinese Antimony export controls threatening raw ignition compound supplies",
+      "annual_procurement_target": 550,
+      "source_url": "https://www.defense.gov/News/Releases/Release/Article/3784110/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "platform_id": "m1a2-abrams-sepv3",
+      "name": "M1A2 Abrams SEPv3 Main Battle Tank",
+      "lead_contractor": "General Dynamics Land Systems",
+      "critical_mineral_demand": [
+        {"mineral": "Tungsten", "weight_lbs": 120, "critical_subsystem": "M829A4 kinetic energy armor-piercing anti-tank darts"},
+        {"mineral": "Neodymium", "weight_lbs": 85, "critical_subsystem": "Electric turret traverse drives and commander's independent thermal viewer"},
+        {"mineral": "Germanium", "weight_lbs": 12, "critical_subsystem": "FLIR thermal sight lenses for gunner and commander"}
+      ],
+      "supply_chain_bottleneck": "Zero domestic primary tungsten mine; relying on foreign scrap reprocessing",
+      "annual_procurement_target": 110,
+      "source_url": "https://crsreports.congress.gov/product/pdf/IF/IF12480",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    }
+  ],
+  "stockpile_initiatives": [
+    {
+      "project_name": "Perpetua Resources Stibnite Gold-Antimony Project",
+      "location": "Valley County, Idaho, USA",
+      "grant_amount_usd": 74600000,
+      "authority": "Title III Defense Production Act (DOD)",
+      "target_mineral": "Antimony",
+      "projected_capacity": "35% of annual US antimony requirements",
+      "status": "Final Environmental Impact Statement Record of Decision Pending",
+      "source_url": "https://www.defense.gov/News/Releases/Release/Article/3300582/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "project_name": "MP Materials Heavy Rare Earth Separation Facility",
+      "location": "Mountain Pass, California, USA",
+      "grant_amount_usd": 35000000,
+      "authority": "DOD Industrial Base Policy (Title III DPA)",
+      "target_mineral": "Dysprosium & Neodymium",
+      "projected_capacity": "Domestic commercial-scale NdFeB magnet precursor output",
+      "status": "Commissioning & Commercial Production Phase",
+      "source_url": "https://www.defense.gov/News/Releases/Release/Article/2941566/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "project_name": "Albemarle Kings Mountain Lithium Recommissioning",
+      "location": "Kings Mountain, North Carolina, USA",
+      "grant_amount_usd": 90000000,
+      "authority": "DOD Defense Production Act Title III",
+      "target_mineral": "Lithium Chemical Hydroxide",
+      "projected_capacity": "Battery-grade lithium for 1.2M defense and civilian vehicles",
+      "status": "State Permitting & Mine Site Engineering",
+      "source_url": "https://www.defense.gov/News/Releases/Release/Article/3522648/",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    },
+    {
+      "project_name": "Centrus Energy American Centrifuge Plant Expansion",
+      "location": "Piketon, Ohio, USA",
+      "grant_amount_usd": 150000000,
+      "authority": "Department of Energy HALEU Availability Program",
+      "target_mineral": "High-Assay Low-Enriched Uranium (HALEU)",
+      "projected_capacity": "Domestic centrifuge enrichment to replace Russian TENEX contracts",
+      "status": "Phase 1 Operational (First 900 kg produced)",
+      "source_url": "https://www.energy.gov/ne/articles/centrus-produces-first-20-kilograms-haleu",
+      "retrieved_at": "2026-10-04T04:41:00Z"
+    }
+  ]
+}
